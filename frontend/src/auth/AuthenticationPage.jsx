@@ -1,11 +1,11 @@
 import "react"
-import { SignIn, SignUp, SignedIn, SignedOut} from "@clerk/clerk-react"
+import {SignIn, SignUp, SignedIn, SignedOut} from "@clerk/clerk-react"
 
-export function AuthenticationPage(){
+export function AuthenticationPage() {
     return <div className="auth-container">
         <SignedOut>
-            <SignIn routing="path" path="/sign-in" signUpUrl="/sign-up" />
-            <SignUp routing="path" path="/sign-up" signInUrl="/sign-in" />
+            <SignIn routing="path" path="/sign-in"/>
+            <SignUp routing="path" path="/sign-up"/>
         </SignedOut>
         <SignedIn>
             <div className="redirect-message">
