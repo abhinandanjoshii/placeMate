@@ -1,6 +1,6 @@
 # placeMate
 
-A full-stack application built with FastAPI (Python) and Vite (JavaScript) for managing challenges.
+A full stack application integrated using AI models to generate placement questions for interview preparation. 
 
 ---
 
