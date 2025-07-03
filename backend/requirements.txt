@@ -1,0 +1,7 @@
+fastapi>=0.115.12
+uvicorn>=0.34.2
+sqlalchemy>=2.0.41
+clerk-backend-api>=2.2.0
+openai>=1.79.0
+python-dotenv>=1.1.0
+svix>=1.65.0
